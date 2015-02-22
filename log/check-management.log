@@ -1,0 +1,1344 @@
+2015-02-22T10:27:34.989Z - error: uncaughtException: undefined is not a function date=Sun Feb 22 2015 10:27:34 GMT+0000 (GMT), pid=14340, uid=502, gid=20, cwd=/Users/mwagstaff/Dropbox/dev/webwatch.io/check-management, execPath=/usr/local/Cellar/node/0.12.0/bin/node, version=v0.12.0, argv=[node, /Users/mwagstaff/Dropbox/dev/webwatch.io/check-management/server-check-management.js], rss=29650944, heapTotal=19093760, heapUsed=12590056, loadavg=[2.22265625, 2.03271484375, 2.013671875], uptime=50953, trace=[column=10, file=/Users/mwagstaff/Dropbox/dev/webwatch.io/check-management/server-check-management.js, function=, line=13, method=null, native=false, column=16, file=events.js, function=Server.g, line=199, method=g, native=false, column=17, file=events.js, function=Server.emit, line=104, method=emit, native=false, column=12, file=net.js, function=null, line=1144, method=null, native=false, column=11, file=node.js, function=process._tickCallback, line=355, method=_tickCallback, native=false, column=11, file=module.js, function=Function.Module.runMain, line=503, method=Module.runMain, native=false, column=16, file=node.js, function=startup, line=129, method=null, native=false, column=3, file=node.js, function=null, line=814, method=null, native=false], stack=[TypeError: undefined is not a function,     at Server.<anonymous> (/Users/mwagstaff/Dropbox/dev/webwatch.io/check-management/server-check-management.js:13:10),     at Server.g (events.js:199:16),     at Server.emit (events.js:104:17),     at net.js:1144:12,     at process._tickCallback (node.js:355:11),     at Function.Module.runMain (module.js:503:11),     at startup (node.js:129:16),     at node.js:814:3]
+2015-02-22T10:29:43.638Z - error: uncaughtException: Cannot read property 'info' of undefined date=Sun Feb 22 2015 10:29:43 GMT+0000 (GMT), pid=14534, uid=502, gid=20, cwd=/Users/mwagstaff/Dropbox/dev/webwatch.io/check-management, execPath=/usr/local/Cellar/node/0.12.0/bin/node, version=v0.12.0, argv=[node, /Users/mwagstaff/Dropbox/dev/webwatch.io/check-management/server-check-management.js], rss=29483008, heapTotal=19093760, heapUsed=12581280, loadavg=[1.853515625, 1.896484375, 1.95361328125], uptime=51082, trace=[column=13, file=/Users/mwagstaff/Dropbox/dev/webwatch.io/check-management/server-check-management.js, function=, line=13, method=null, native=false, column=16, file=events.js, function=Server.g, line=199, method=g, native=false, column=17, file=events.js, function=Server.emit, line=104, method=emit, native=false, column=12, file=net.js, function=null, line=1144, method=null, native=false, column=11, file=node.js, function=process._tickCallback, line=355, method=_tickCallback, native=false, column=11, file=module.js, function=Function.Module.runMain, line=503, method=Module.runMain, native=false, column=16, file=node.js, function=startup, line=129, method=null, native=false, column=3, file=node.js, function=null, line=814, method=null, native=false], stack=[TypeError: Cannot read property 'info' of undefined,     at Server.<anonymous> (/Users/mwagstaff/Dropbox/dev/webwatch.io/check-management/server-check-management.js:13:13),     at Server.g (events.js:199:16),     at Server.emit (events.js:104:17),     at net.js:1144:12,     at process._tickCallback (node.js:355:11),     at Function.Module.runMain (module.js:503:11),     at startup (node.js:129:16),     at node.js:814:3]
+2015-02-22T10:30:10.161Z - info: Server listening at http://:::3000
+2015-02-22T10:31:24.666Z - info: Server listening at http://:::3000
+2015-02-22T10:31:50.271Z - info: test message 123
+2015-02-22T10:31:50.275Z - info: Server listening at http://:::3000
+2015-02-22T10:32:13.648Z - info: test message 123
+2015-02-22T10:32:13.651Z - info: Server listening at http://:::3000
+2015-02-22T10:32:20.782Z - info: test message 123
+2015-02-22T10:32:20.785Z - info: Server listening at http://NaN:3000
+2015-02-22T10:32:31.482Z - info: test message 123
+2015-02-22T10:32:31.485Z - info: Server listening at http://:::3000
+2015-02-22T10:33:20.681Z - info: test message abc
+2015-02-22T10:33:20.684Z - info: test message 123
+2015-02-22T10:33:20.685Z - info: Server listening at http://:::3000
+2015-02-22T10:33:44.260Z - info: test message abc
+2015-02-22T10:33:44.263Z - info: test message 123
+2015-02-22T10:33:44.264Z - info: Server listening at http://:::3000
+2015-02-22T10:33:58.461Z - info: test message abc
+2015-02-22T10:33:58.464Z - info: test message 123
+2015-02-22T10:33:58.465Z - info: Server listening at http://:::3000
+2015-02-22T10:34:11.728Z - info: test message abc def
+2015-02-22T10:34:11.731Z - info: test message 123
+2015-02-22T10:34:11.732Z - info: Server listening at http://:::3000
+2015-02-22T10:34:35.651Z - info: test message abc def
+2015-02-22T10:34:35.655Z - info: test message 123
+2015-02-22T10:34:35.655Z - info: Server listening at http://:::3000
+2015-02-22T10:35:24.979Z - info: test message abc def
+2015-02-22T10:35:24.982Z - info: test message 123
+2015-02-22T10:35:24.983Z - info: Server listening at http://:::3000
+2015-02-22T10:36:33.183Z - info: Server listening at http://:::3000
+2015-02-22T10:38:21.536Z - error: uncaughtException: Cannot read property 'info' of undefined date=Sun Feb 22 2015 10:38:21 GMT+0000 (GMT), pid=15334, uid=502, gid=20, cwd=/Users/mwagstaff/Dropbox/dev/webwatch.io/check-management, execPath=/usr/local/Cellar/node/0.12.0/bin/node, version=v0.12.0, argv=[node, /Users/mwagstaff/Dropbox/dev/webwatch.io/check-management/server-check-management.js], rss=29491200, heapTotal=19093760, heapUsed=12584928, loadavg=[1.9931640625, 2.14013671875, 2.064453125], uptime=51600, trace=[column=13, file=/Users/mwagstaff/Dropbox/dev/webwatch.io/check-management/server-check-management.js, function=, line=13, method=null, native=false, column=16, file=events.js, function=Server.g, line=199, method=g, native=false, column=17, file=events.js, function=Server.emit, line=104, method=emit, native=false, column=12, file=net.js, function=null, line=1144, method=null, native=false, column=11, file=node.js, function=process._tickCallback, line=355, method=_tickCallback, native=false, column=11, file=module.js, function=Function.Module.runMain, line=503, method=Module.runMain, native=false, column=16, file=node.js, function=startup, line=129, method=null, native=false, column=3, file=node.js, function=null, line=814, method=null, native=false], stack=[TypeError: Cannot read property 'info' of undefined,     at Server.<anonymous> (/Users/mwagstaff/Dropbox/dev/webwatch.io/check-management/server-check-management.js:13:13),     at Server.g (events.js:199:16),     at Server.emit (events.js:104:17),     at net.js:1144:12,     at process._tickCallback (node.js:355:11),     at Function.Module.runMain (module.js:503:11),     at startup (node.js:129:16),     at node.js:814:3]
+2015-02-22T10:38:29.440Z - info: Server listening at http://:::3000
+2015-02-22T10:44:58.492Z - info: Server listening at http://:::3000
+2015-02-22T10:47:58.925Z - error: uncaughtException: Cannot read property 'info' of undefined date=Sun Feb 22 2015 10:47:58 GMT+0000 (GMT), pid=16080, uid=502, gid=20, cwd=/Users/mwagstaff/Dropbox/dev/webwatch.io/check-management, execPath=/usr/local/Cellar/node/0.12.0/bin/node, version=v0.12.0, argv=[node, /Users/mwagstaff/Dropbox/dev/webwatch.io/check-management/server-check-management.js], rss=29736960, heapTotal=19093760, heapUsed=12649944, loadavg=[2.12353515625, 1.97900390625, 1.98974609375], uptime=52177, trace=[column=6, file=/Users/mwagstaff/Dropbox/dev/webwatch.io/check-management/server-check-management.js, function=, line=14, method=null, native=false, column=16, file=events.js, function=Server.g, line=199, method=g, native=false, column=17, file=events.js, function=Server.emit, line=104, method=emit, native=false, column=12, file=net.js, function=null, line=1144, method=null, native=false, column=11, file=node.js, function=process._tickCallback, line=355, method=_tickCallback, native=false, column=11, file=module.js, function=Function.Module.runMain, line=503, method=Module.runMain, native=false, column=16, file=node.js, function=startup, line=129, method=null, native=false, column=3, file=node.js, function=null, line=814, method=null, native=false], stack=[TypeError: Cannot read property 'info' of undefined,     at Server.<anonymous> (/Users/mwagstaff/Dropbox/dev/webwatch.io/check-management/server-check-management.js:14:6),     at Server.g (events.js:199:16),     at Server.emit (events.js:104:17),     at net.js:1144:12,     at process._tickCallback (node.js:355:11),     at Function.Module.runMain (module.js:503:11),     at startup (node.js:129:16),     at node.js:814:3]
+2015-02-22T10:48:13.052Z - error: uncaughtException: Cannot read property 'info' of undefined date=Sun Feb 22 2015 10:48:13 GMT+0000 (GMT), pid=16131, uid=502, gid=20, cwd=/Users/mwagstaff/Dropbox/dev/webwatch.io/check-management, execPath=/usr/local/Cellar/node/0.12.0/bin/node, version=v0.12.0, argv=[node, /Users/mwagstaff/Dropbox/dev/webwatch.io/check-management/server-check-management.js], rss=29696000, heapTotal=19093760, heapUsed=12703504, loadavg=[2.16259765625, 1.9951171875, 1.9951171875], uptime=52192, trace=[column=6, file=/Users/mwagstaff/Dropbox/dev/webwatch.io/check-management/server-check-management.js, function=, line=14, method=null, native=false, column=16, file=events.js, function=Server.g, line=199, method=g, native=false, column=17, file=events.js, function=Server.emit, line=104, method=emit, native=false, column=12, file=net.js, function=null, line=1144, method=null, native=false, column=11, file=node.js, function=process._tickCallback, line=355, method=_tickCallback, native=false, column=11, file=module.js, function=Function.Module.runMain, line=503, method=Module.runMain, native=false, column=16, file=node.js, function=startup, line=129, method=null, native=false, column=3, file=node.js, function=null, line=814, method=null, native=false], stack=[TypeError: Cannot read property 'info' of undefined,     at Server.<anonymous> (/Users/mwagstaff/Dropbox/dev/webwatch.io/check-management/server-check-management.js:14:6),     at Server.g (events.js:199:16),     at Server.emit (events.js:104:17),     at net.js:1144:12,     at process._tickCallback (node.js:355:11),     at Function.Module.runMain (module.js:503:11),     at startup (node.js:129:16),     at node.js:814:3]
+2015-02-22T10:48:31.221Z - info: Server listening at http://:::3000
+2015-02-22T10:48:53.397Z - info: Server listening at http://:::3000
+2015-02-22T11:20:35.277Z - info: Server listening at http://:::3000
+2015-02-22T11:21:02.485Z - info: Server listening at http://:::3000
+2015-02-22T11:21:49.856Z - info: Server listening at http://:::3000
+2015-02-22T11:22:04.981Z - info: Server listening at http://:::3000
+2015-02-22T11:22:18.099Z - info: Server listening at http://:::3000
+2015-02-22T11:22:25.174Z - info: Server listening at http://:::3000
+2015-02-22T11:22:42.326Z - info: Server listening at http://:::3000
+2015-02-22T11:23:03.486Z - info: Server listening at http://:::3000
+2015-02-22T11:24:10.016Z - info: Server listening at http://:::3000
+2015-02-22T11:24:19.412Z - info: Checking website: www.google.com
+2015-02-22T11:24:19.422Z - error: stderr:   % Total    % Received % Xferd  Av
+2015-02-22T11:24:19.423Z - error: stderr: erage Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+2015-02-22T11:24:19.516Z - error: stderr:   0   261    0     0    0     0      0      0
+2015-02-22T11:24:19.517Z - error: stderr:  --:--:-- --:--:-- --:--:--     0
+
+2015-02-22T11:24:19.517Z - info: stdout: HTTP/1.1 302 Found
+Cache-Control: private
+Content-Type: text/html; charset=UTF-8
+Location: http://www.google.co.uk/?gfe_rd=cr&ei=Y7zpVNT3EYSN1AXcxILQBA
+Content-Length: 261
+Date: Sun, 22 Feb 2015 11:24:19 GMT
+Server: GFE/2.0
+Alternate-Protocol: 80:quic,p=0.08
+
+
+2015-02-22T11:24:19.520Z - info: child process exited with code 0
+2015-02-22T11:24:19.524Z - error: uncaughtException: res is not defined date=Sun Feb 22 2015 11:24:19 GMT+0000 (GMT), pid=19576, uid=502, gid=20, cwd=/Users/mwagstaff/Dropbox/dev/webwatch.io/check-management, execPath=/usr/local/Cellar/node/0.12.0/bin/node, version=v0.12.0, argv=[node, /Users/mwagstaff/Dropbox/dev/webwatch.io/check-management/server-check-management.js], rss=31928320, heapTotal=20125696, heapUsed=9053672, loadavg=[1.88818359375, 2.31591796875, 2.3955078125], uptime=54358, trace=[column=5, file=/Users/mwagstaff/Dropbox/dev/webwatch.io/check-management/lib/check.js, function=, line=24, method=null, native=false, column=17, file=events.js, function=ChildProcess.emit, line=110, method=emit, native=false, column=16, file=child_process.js, function=maybeClose, line=1008, method=null, native=false, column=11, file=child_process.js, function=, line=1176, method=null, native=false, column=17, file=events.js, function=Socket.emit, line=107, method=emit, native=false, column=12, file=net.js, function=Pipe.close, line=476, method=close, native=false], stack=[ReferenceError: res is not defined,     at ChildProcess.<anonymous> (/Users/mwagstaff/Dropbox/dev/webwatch.io/check-management/lib/check.js:24:5),     at ChildProcess.emit (events.js:110:17),     at maybeClose (child_process.js:1008:16),     at Socket.<anonymous> (child_process.js:1176:11),     at Socket.emit (events.js:107:17),     at Pipe.close (net.js:476:12)]
+2015-02-22T11:24:30.188Z - info: Server listening at http://:::3000
+2015-02-22T11:24:32.989Z - info: Checking website: www.google.com
+2015-02-22T11:24:32.995Z - error: stderr:   % Total    % Received % Xferd  Average Sp
+2015-02-22T11:24:32.996Z - error: stderr: eed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+2015-02-22T11:24:33.000Z - error: stderr:   0     0    0     0    0     0  
+2015-02-22T11:24:33.001Z - error: stderr:     0      0 --:--:-- --:--:-- --:--:--     0
+2015-02-22T11:24:33.027Z - error: stderr:   0   261    0
+2015-02-22T11:24:33.028Z - error: stderr:      0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+
+2015-02-22T11:24:33.028Z - info: stdout: HTTP/1.1 302 Found
+Cache-Control: private
+Content-Type: text/html; charset=UTF-8
+Location: http://www.google.co.uk/?gfe_rd=cr&ei=cLzpVNiJMYHD0wXlwILQBA
+Content-Length: 261
+Date: Sun, 22 Feb 2015 11:24:32 GMT
+Server: GFE/2.0
+Alternate-Protocol: 80:quic,p=0.08
+
+
+2015-02-22T11:24:33.031Z - info: child process exited with code 0
+2015-02-22T11:28:05.808Z - info: Server listening at http://:::3000
+2015-02-22T11:28:14.902Z - info: Server listening at http://:::3000
+2015-02-22T11:28:20.172Z - info: Checking website: www.google.com
+2015-02-22T11:28:20.178Z - error: stderr:   % Total    % Recei
+2015-02-22T11:28:20.179Z - error: stderr: ved % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+2015-02-22T11:28:20.241Z - error: stderr:   0   259    0     0    0     0      0  
+2015-02-22T11:28:20.242Z - error: stderr:     0 --:--:-- --:--:-- --:--:--     0
+
+2015-02-22T11:28:20.242Z - info: stdout: HTTP/1.1 302 Found
+Cache-Control: private
+Content-Type: text/html; charset=UTF-8
+Location: http://www.google.co.uk/?gfe_rd=cr&ei=VL3pVNY3o43UBfPYgdgE
+Content-Length: 259
+Date: Sun, 22 Feb 2015 11:28:20 GMT
+Server: GFE/2.0
+Alternate-Protocol: 80:quic,p=0.08
+
+
+2015-02-22T11:28:20.245Z - info: child process exited with code 0
+2015-02-22T11:29:43.600Z - info: Server listening at http://:::3000
+2015-02-22T11:29:47.197Z - info: Checking website: undefined
+2015-02-22T11:29:47.204Z - error: stderr:   % Total    % Received % Xferd  Average Speed
+2015-02-22T11:29:47.205Z - error: stderr:    Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+2015-02-22T11:29:47.219Z - error: stderr: curl: (6) Could not reso
+2015-02-22T11:29:47.219Z - error: stderr: lve host: undefined
+
+2015-02-22T11:29:47.222Z - info: child process exited with code 6
+2015-02-22T11:30:40.036Z - info: Server listening at http://:::3000
+2015-02-22T11:30:44.090Z - info: Checking website: undefined
+2015-02-22T11:30:44.096Z - error: stderr:   % Total    % Received % Xferd  Aver
+2015-02-22T11:30:44.097Z - error: stderr: age Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+2015-02-22T11:30:44.101Z - error: stderr: curl: (6) Could not
+2015-02-22T11:30:44.101Z - error: stderr:  resolve host: undefined
+
+2015-02-22T11:30:44.104Z - info: child process exited with code 6
+2015-02-22T11:31:11.315Z - info: Server listening at http://:::3000
+2015-02-22T11:31:13.406Z - info: Checking website: undefined
+2015-02-22T11:31:13.413Z - error: stderr:   % Total    % Received % Xferd  Av
+2015-02-22T11:31:13.414Z - error: stderr: erage Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+2015-02-22T11:31:13.417Z - error: stderr: curl: (6) Could
+2015-02-22T11:31:13.417Z - error: stderr:  not resolve host: undefined
+
+2015-02-22T11:31:13.420Z - info: child process exited with code 6
+2015-02-22T11:31:46.579Z - info: Server listening at http://:::3000
+2015-02-22T11:31:55.652Z - info: Server listening at http://:::3000
+2015-02-22T11:31:57.736Z - info: Checking website: www.google.com
+2015-02-22T11:31:57.751Z - error: stderr:   % Total    % Received % Xferd  
+2015-02-22T11:31:57.752Z - error: stderr: Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+2015-02-22T11:31:57.847Z - error: stderr:   0   261    0     0    0   
+2015-02-22T11:31:57.848Z - error: stderr:   0      0      0 --:--:-- --:--:-- --:--:--     0
+
+2015-02-22T11:31:57.848Z - info: stdout: HTTP/1.1 302 Found
+Cache-Control: private
+Content-Type: text/html; charset=UTF-8
+Location: http://www.google.co.uk/?gfe_rd=cr&ei=Lb7pVKLvJKPQ0wWghYHABA
+Content-Length: 261
+Date: Sun, 22 Feb 2015 11:31:57 GMT
+Server: GFE/2.0
+Alternate-Protocol: 80:quic,p=0.08
+
+
+2015-02-22T11:31:57.851Z - info: child process exited with code 0
+2015-02-22T11:33:16.306Z - info: Server listening at http://:::3000
+2015-02-22T11:33:23.010Z - info: Checking website: www.google.com
+2015-02-22T11:33:23.047Z - info: stdout: HTTP/1.1 302 Found
+Cache-Control: private
+Content-Type: text/html; charset=UTF-8
+Location: http://www.google.co.uk/?gfe_rd=cr&ei=gr7pVL_pMIvD0wXc0oDwBA
+Content-Length: 261
+Date: Sun, 22 Feb 2015 11:33:22 GMT
+Server: GFE/2.0
+Alternate-Protocol: 80:quic,p=0.08
+
+
+2015-02-22T11:33:23.050Z - info: child process exited with code 0
+2015-02-22T11:37:30.342Z - info: Checking website: www.google1234.com
+2015-02-22T11:37:30.431Z - info: stdout: HTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Sun, 22 Feb 2015 11:37:30 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Cache-control: no-cache, no-store
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+
+
+2015-02-22T11:37:30.432Z - info: child process exited with code 0
+2015-02-22T11:37:39.442Z - info: Checking website: www.googlethisdoesnotexist4.com
+2015-02-22T11:37:39.531Z - info: stdout: HTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Sun, 22 Feb 2015 11:37:39 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Cache-control: no-cache, no-store
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+
+
+2015-02-22T11:37:39.531Z - info: child process exited with code 0
+2015-02-22T11:37:58.980Z - info: Checking website: www.googlethisdoesnotexist4skhfksdhksccsd.com
+2015-02-22T11:37:59.051Z - error: stderr: curl: (6) Could not re
+2015-02-22T11:37:59.052Z - error: stderr: solve host: www.googlethisdoesnotexist4skhfksdhksccsd.com
+
+2015-02-22T11:37:59.052Z - info: child process exited with code 6
+2015-02-22T11:47:36.872Z - info: Server listening at http://:::3000
+2015-02-22T11:51:41.749Z - info: Server listening at http://:::3000
+2015-02-22T11:52:05.953Z - info: Server listening at http://:::3000
+2015-02-22T11:52:09.525Z - info: Checking website: www.googlethisdoesnotexist4skhfksdhksccsd.com
+2015-02-22T11:52:10.079Z - info: stdout: HTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Sun, 22 Feb 2015 11:52:09 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Cache-control: no-cache, no-store
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+
+
+2015-02-22T11:52:10.083Z - info: child process exited with code 0
+2015-02-22T11:52:33.177Z - info: Server listening at http://:::3000
+2015-02-22T11:52:58.398Z - info: Server listening at http://:::3000
+2015-02-22T11:53:00.473Z - info: Getting workload
+2015-02-22T11:53:23.613Z - info: Server listening at http://:::3000
+2015-02-22T11:53:40.771Z - info: Server listening at http://:::3000
+2015-02-22T11:53:50.674Z - info: Checking website: www.googlethisdoesnotexist4skhfksdhksccsd.com
+2015-02-22T11:53:50.770Z - info: stdout: HTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Sun, 22 Feb 2015 11:53:50 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Cache-control: no-cache, no-store
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+
+
+2015-02-22T11:53:50.773Z - info: child process exited with code 0
+2015-02-22T11:54:36.206Z - info: Server listening at http://:::3000
+2015-02-22T11:54:42.198Z - info: Checking website: www.googlethisdoesnotexist4skhfksdhksccsd.com
+2015-02-22T11:54:42.253Z - info: stdout: HTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Sun, 22 Feb 2015 11:54:41 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Cache-control: no-cache, no-store
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+
+
+2015-02-22T11:54:42.256Z - info: child process exited with code 0
+2015-02-22T11:55:21.563Z - info: Server listening at http://:::3000
+2015-02-22T11:55:28.630Z - info: Server listening at http://:::3000
+2015-02-22T11:55:34.662Z - info: Checking website: www.googlethisdoesnotexist4skhfksdhksccsd.com
+2015-02-22T11:55:34.701Z - error: stderr: curl: (6) Could not resolve host: www.googlet
+2015-02-22T11:55:34.702Z - error: stderr: hisdoesnotexist4skhfksdhksccsd.com
+
+2015-02-22T11:55:34.705Z - info: child process exited with code 6
+2015-02-22T11:55:54.840Z - info: Server listening at http://:::3000
+2015-02-22T11:56:14.900Z - info: Checking website: www.googlethisdoesnotexist4skhfksdhksccsd.com
+2015-02-22T11:56:14.912Z - error: stderr: curl: (
+2015-02-22T11:56:14.912Z - error: stderr: 6) Could not resolve host: www.googlethisdoesnotexist4skhfksdhksccsd.com
+
+2015-02-22T11:56:14.915Z - info: child process exited with code 6
+2015-02-22T11:59:02.292Z - info: Server listening at http://:::3000
+2015-02-22T11:59:05.740Z - info: Checking website: www.googlethisdoesnotexist4skhfksdhksccsd.com
+2015-02-22T11:59:06.288Z - info: stdout: HTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Sun, 22 Feb 2015 11:59:05 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Cache-control: no-cache, no-store
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+
+
+2015-02-22T11:59:06.302Z - info: child process exited with code 0
+2015-02-22T11:59:06.302Z - info:  domain=null, close=function (code) {
+    stats.checksInProgress -= 1;
+    stats.checksCompleted = stats.checksCompleted ? stats.checksCompleted += 1 : 1;
+    log.info('child process exited with code ' + code);
+    log.info(check);
+    res.end('Done!');
+  }, _maxListeners=undefined, _closesNeeded=3, _closesGot=3, connected=false, signalCode=null, exitCode=0, killed=false, spawnfile=curl, _handle=null, pid=23447, _connecting=false, _hadError=false, _handle=null, _host=null, objectMode=false, highWaterMark=16384, buffer=[], length=0, pipes=null, pipesCount=0, flowing=null, ended=true, endEmitted=true, reading=false, sync=false, needReadable=false, emittedReadable=true, readableListening=false, defaultEncoding=utf8, ranOut=false, awaitDrain=0, readingMore=false, decoder=null, encoding=null, readable=false, domain=null, finish=function onSocketFinish() {
+  // If still connecting - defer handling 'finish' until 'connect' will happen
+  if (this._connecting) {
+    debug('osF: not yet connected');
+    return this.once('connect', onSocketFinish);
+  }
+
+  debug('onSocketFinish');
+  if (!this.readable || this._readableState.ended) {
+    debug('oSF: ended, destroy', this._readableState);
+    return this.destroy();
+  }
+
+  debug('oSF: not ended, call shutdown()');
+
+  // otherwise, just shutdown, or destroy() if not possible
+  if (!this._handle || !this._handle.shutdown)
+    return this.destroy();
+
+  var req = new ShutdownWrap();
+  req.oncomplete = afterShutdown;
+  var err = this._handle.shutdown(req);
+
+  if (err)
+    return this._destroy(errnoException(err, 'shutdown'));
+}, _socketEnd=function onSocketEnd() {
+  // XXX Should not have to do as much crap in this function.
+  // ended should already be true, since this is called *after*
+  // the EOF errno and onread has eof'ed
+  debug('onSocketEnd', this._readableState);
+  this._readableState.ended = true;
+  if (this._readableState.endEmitted) {
+    this.readable = false;
+    maybeDestroy(this);
+  } else {
+    this.once('end', function() {
+      this.readable = false;
+      maybeDestroy(this);
+    });
+    this.read(0);
+  }
+
+  if (!this.allowHalfOpen) {
+    this.write = writeAfterFIN;
+    this.destroySoon();
+  }
+}, _maxListeners=undefined, objectMode=false, highWaterMark=16384, needDrain=false, ending=true, ended=true, finished=true, decodeStrings=false, defaultEncoding=utf8, length=0, writing=false, corked=0, sync=true, bufferProcessing=false, onwrite=function (er) {
+    onwrite(stream, er);
+  }, writecb=null, writelen=0, bufferedRequest=null, lastBufferedRequest=null, pendingcb=0, prefinished=true, errorEmitted=false, writable=false, allowHalfOpen=false, destroyed=true, bytesRead=0, _bytesDispatched=0, _writev=null, _pendingData=null, _pendingEncoding=, write=function writeAfterFIN(chunk, encoding, cb) {
+  if (util.isFunction(encoding)) {
+    cb = encoding;
+    encoding = null;
+  }
+
+  var er = new Error('This socket has been ended by the other party');
+  er.code = 'EPIPE';
+  var self = this;
+  // TODO: defer error events consistently everywhere, not just the cb
+  self.emit('error', er);
+  if (util.isFunction(cb)) {
+    process.nextTick(function() {
+      cb(er);
+    });
+  }
+}, _idleNext=null, _idlePrev=null, _idleTimeout=-1, _connecting=false, _hadError=false, _handle=null, _host=null, objectMode=false, highWaterMark=16384, buffer=[], length=0, pipes=null, pipesCount=0, flowing=true, ended=true, endEmitted=true, reading=false, sync=false, needReadable=false, emittedReadable=false, readableListening=false, defaultEncoding=utf8, ranOut=false, awaitDrain=0, readingMore=false, decoder=null, encoding=null, resumeScheduled=false, readable=false, domain=null, finish=[function onSocketFinish() {
+  // If still connecting - defer handling 'finish' until 'connect' will happen
+  if (this._connecting) {
+    debug('osF: not yet connected');
+    return this.once('connect', onSocketFinish);
+  }
+
+  debug('onSocketFinish');
+  if (!this.readable || this._readableState.ended) {
+    debug('oSF: ended, destroy', this._readableState);
+    return this.destroy();
+  }
+
+  debug('oSF: not ended, call shutdown()');
+
+  // otherwise, just shutdown, or destroy() if not possible
+  if (!this._handle || !this._handle.shutdown)
+    return this.destroy();
+
+  var req = new ShutdownWrap();
+  req.oncomplete = afterShutdown;
+  var err = this._handle.shutdown(req);
+
+  if (err)
+    return this._destroy(errnoException(err, 'shutdown'));
+}], _socketEnd=function onSocketEnd() {
+  // XXX Should not have to do as much crap in this function.
+  // ended should already be true, since this is called *after*
+  // the EOF errno and onread has eof'ed
+  debug('onSocketEnd', this._readableState);
+  this._readableState.ended = true;
+  if (this._readableState.endEmitted) {
+    this.readable = false;
+    maybeDestroy(this);
+  } else {
+    this.once('end', function() {
+      this.readable = false;
+      maybeDestroy(this);
+    });
+    this.read(0);
+  }
+
+  if (!this.allowHalfOpen) {
+    this.write = writeAfterFIN;
+    this.destroySoon();
+  }
+}, close=function () {
+          maybeClose(self);
+        }, data=function (data) {
+    log.info('stdout: ' + data);
+  }, _maxListeners=undefined, objectMode=false, highWaterMark=16384, needDrain=false, ending=true, ended=true, finished=true, decodeStrings=false, defaultEncoding=utf8, length=0, writing=false, corked=0, sync=true, bufferProcessing=false, onwrite=function (er) {
+    onwrite(stream, er);
+  }, writecb=null, writelen=0, bufferedRequest=null, lastBufferedRequest=null, pendingcb=0, prefinished=true, errorEmitted=false, writable=false, allowHalfOpen=false, destroyed=true, bytesRead=230, _bytesDispatched=0, _writev=null, _pendingData=null, _pendingEncoding=, read=function (n) {
+  debug('read', n);
+  var state = this._readableState;
+  var nOrig = n;
+
+  if (!util.isNumber(n) || n > 0)
+    state.emittedReadable = false;
+
+  // if we're doing read(0) to trigger a readable event, but we
+  // already have a bunch of data in the buffer, then just trigger
+  // the 'readable' event and move on.
+  if (n === 0 &&
+      state.needReadable &&
+      (state.length >= state.highWaterMark || state.ended)) {
+    debug('read: emitReadable', state.length, state.ended);
+    if (state.length === 0 && state.ended)
+      endReadable(this);
+    else
+      emitReadable(this);
+    return null;
+  }
+
+  n = howMuchToRead(n, state);
+
+  // if we've ended, and we're now clear, then finish it up.
+  if (n === 0 && state.ended) {
+    if (state.length === 0)
+      endReadable(this);
+    return null;
+  }
+
+  // All the actual chunk generation logic needs to be
+  // *below* the call to _read.  The reason is that in certain
+  // synthetic stream cases, such as passthrough streams, _read
+  // may be a completely synchronous operation which may change
+  // the state of the read buffer, providing enough data when
+  // before there was *not* enough.
+  //
+  // So, the steps are:
+  // 1. Figure out what the state of things will be after we do
+  // a read from the buffer.
+  //
+  // 2. If that resulting state will trigger a _read, then call _read.
+  // Note that this may be asynchronous, or synchronous.  Yes, it is
+  // deeply ugly to write APIs this way, but that still doesn't mean
+  // that the Readable class should behave improperly, as streams are
+  // designed to be sync/async agnostic.
+  // Take note if the _read call is sync or async (ie, if the read call
+  // has returned yet), so that we know whether or not it's safe to emit
+  // 'readable' etc.
+  //
+  // 3. Actually pull the requested chunks out of the buffer and return.
+
+  // if we need a readable event, then we need to do some reading.
+  var doRead = state.needReadable;
+  debug('need readable', doRead);
+
+  // if we currently have less than the highWaterMark, then also read some
+  if (state.length === 0 || state.length - n < state.highWaterMark) {
+    doRead = true;
+    debug('length less than watermark', doRead);
+  }
+
+  // however, if we've ended, then there's no point, and if we're already
+  // reading, then it's unnecessary.
+  if (state.ended || state.reading) {
+    doRead = false;
+    debug('reading or ended', doRead);
+  }
+
+  if (doRead) {
+    debug('do read');
+    state.reading = true;
+    state.sync = true;
+    // if the length is currently zero, then we *need* a readable event.
+    if (state.length === 0)
+      state.needReadable = true;
+    // call internal read method
+    this._read(state.highWaterMark);
+    state.sync = false;
+  }
+
+  // If _read pushed data synchronously, then `reading` will be false,
+  // and we need to re-evaluate how much data we can return to the user.
+  if (doRead && !state.reading)
+    n = howMuchToRead(nOrig, state);
+
+  var ret;
+  if (n > 0)
+    ret = fromList(n, state);
+  else
+    ret = null;
+
+  if (util.isNull(ret)) {
+    state.needReadable = true;
+    n = 0;
+  }
+
+  state.length -= n;
+
+  // If we have nothing in the buffer, then we want to know
+  // as soon as we *do* get something into the buffer.
+  if (state.length === 0 && !state.ended)
+    state.needReadable = true;
+
+  // If we tried to read() past the EOF, then emit end on the next tick.
+  if (nOrig !== n && state.ended && state.length === 0)
+    endReadable(this);
+
+  if (!util.isNull(ret))
+    this.emit('data', ret);
+
+  return ret;
+}, _consuming=true, _idleNext=null, _idlePrev=null, _idleTimeout=-1, write=function writeAfterFIN(chunk, encoding, cb) {
+  if (util.isFunction(encoding)) {
+    cb = encoding;
+    encoding = null;
+  }
+
+  var er = new Error('This socket has been ended by the other party');
+  er.code = 'EPIPE';
+  var self = this;
+  // TODO: defer error events consistently everywhere, not just the cb
+  self.emit('error', er);
+  if (util.isFunction(cb)) {
+    process.nextTick(function() {
+      cb(er);
+    });
+  }
+}, _connecting=false, _hadError=false, _handle=null, _host=null, objectMode=false, highWaterMark=16384, buffer=[], length=0, pipes=null, pipesCount=0, flowing=true, ended=true, endEmitted=true, reading=false, sync=false, needReadable=false, emittedReadable=false, readableListening=false, defaultEncoding=utf8, ranOut=false, awaitDrain=0, readingMore=false, decoder=null, encoding=null, resumeScheduled=false, readable=false, domain=null, finish=[function onSocketFinish() {
+  // If still connecting - defer handling 'finish' until 'connect' will happen
+  if (this._connecting) {
+    debug('osF: not yet connected');
+    return this.once('connect', onSocketFinish);
+  }
+
+  debug('onSocketFinish');
+  if (!this.readable || this._readableState.ended) {
+    debug('oSF: ended, destroy', this._readableState);
+    return this.destroy();
+  }
+
+  debug('oSF: not ended, call shutdown()');
+
+  // otherwise, just shutdown, or destroy() if not possible
+  if (!this._handle || !this._handle.shutdown)
+    return this.destroy();
+
+  var req = new ShutdownWrap();
+  req.oncomplete = afterShutdown;
+  var err = this._handle.shutdown(req);
+
+  if (err)
+    return this._destroy(errnoException(err, 'shutdown'));
+}], _socketEnd=function onSocketEnd() {
+  // XXX Should not have to do as much crap in this function.
+  // ended should already be true, since this is called *after*
+  // the EOF errno and onread has eof'ed
+  debug('onSocketEnd', this._readableState);
+  this._readableState.ended = true;
+  if (this._readableState.endEmitted) {
+    this.readable = false;
+    maybeDestroy(this);
+  } else {
+    this.once('end', function() {
+      this.readable = false;
+      maybeDestroy(this);
+    });
+    this.read(0);
+  }
+
+  if (!this.allowHalfOpen) {
+    this.write = writeAfterFIN;
+    this.destroySoon();
+  }
+}, close=function () {
+          maybeClose(self);
+        }, data=function (data) {
+    log.error('stderr: ' + data);
+    stats.checksErrored = stats.checksErrored ? stats.checksErrored += 1 : 1;
+  }, _maxListeners=undefined, objectMode=false, highWaterMark=16384, needDrain=false, ending=true, ended=true, finished=true, decodeStrings=false, defaultEncoding=utf8, length=0, writing=false, corked=0, sync=true, bufferProcessing=false, onwrite=function (er) {
+    onwrite(stream, er);
+  }, writecb=null, writelen=0, bufferedRequest=null, lastBufferedRequest=null, pendingcb=0, prefinished=true, errorEmitted=false, writable=false, allowHalfOpen=false, destroyed=true, bytesRead=0, _bytesDispatched=0, _writev=null, _pendingData=null, _pendingEncoding=, read=function (n) {
+  debug('read', n);
+  var state = this._readableState;
+  var nOrig = n;
+
+  if (!util.isNumber(n) || n > 0)
+    state.emittedReadable = false;
+
+  // if we're doing read(0) to trigger a readable event, but we
+  // already have a bunch of data in the buffer, then just trigger
+  // the 'readable' event and move on.
+  if (n === 0 &&
+      state.needReadable &&
+      (state.length >= state.highWaterMark || state.ended)) {
+    debug('read: emitReadable', state.length, state.ended);
+    if (state.length === 0 && state.ended)
+      endReadable(this);
+    else
+      emitReadable(this);
+    return null;
+  }
+
+  n = howMuchToRead(n, state);
+
+  // if we've ended, and we're now clear, then finish it up.
+  if (n === 0 && state.ended) {
+    if (state.length === 0)
+      endReadable(this);
+    return null;
+  }
+
+  // All the actual chunk generation logic needs to be
+  // *below* the call to _read.  The reason is that in certain
+  // synthetic stream cases, such as passthrough streams, _read
+  // may be a completely synchronous operation which may change
+  // the state of the read buffer, providing enough data when
+  // before there was *not* enough.
+  //
+  // So, the steps are:
+  // 1. Figure out what the state of things will be after we do
+  // a read from the buffer.
+  //
+  // 2. If that resulting state will trigger a _read, then call _read.
+  // Note that this may be asynchronous, or synchronous.  Yes, it is
+  // deeply ugly to write APIs this way, but that still doesn't mean
+  // that the Readable class should behave improperly, as streams are
+  // designed to be sync/async agnostic.
+  // Take note if the _read call is sync or async (ie, if the read call
+  // has returned yet), so that we know whether or not it's safe to emit
+  // 'readable' etc.
+  //
+  // 3. Actually pull the requested chunks out of the buffer and return.
+
+  // if we need a readable event, then we need to do some reading.
+  var doRead = state.needReadable;
+  debug('need readable', doRead);
+
+  // if we currently have less than the highWaterMark, then also read some
+  if (state.length === 0 || state.length - n < state.highWaterMark) {
+    doRead = true;
+    debug('length less than watermark', doRead);
+  }
+
+  // however, if we've ended, then there's no point, and if we're already
+  // reading, then it's unnecessary.
+  if (state.ended || state.reading) {
+    doRead = false;
+    debug('reading or ended', doRead);
+  }
+
+  if (doRead) {
+    debug('do read');
+    state.reading = true;
+    state.sync = true;
+    // if the length is currently zero, then we *need* a readable event.
+    if (state.length === 0)
+      state.needReadable = true;
+    // call internal read method
+    this._read(state.highWaterMark);
+    state.sync = false;
+  }
+
+  // If _read pushed data synchronously, then `reading` will be false,
+  // and we need to re-evaluate how much data we can return to the user.
+  if (doRead && !state.reading)
+    n = howMuchToRead(nOrig, state);
+
+  var ret;
+  if (n > 0)
+    ret = fromList(n, state);
+  else
+    ret = null;
+
+  if (util.isNull(ret)) {
+    state.needReadable = true;
+    n = 0;
+  }
+
+  state.length -= n;
+
+  // If we have nothing in the buffer, then we want to know
+  // as soon as we *do* get something into the buffer.
+  if (state.length === 0 && !state.ended)
+    state.needReadable = true;
+
+  // If we tried to read() past the EOF, then emit end on the next tick.
+  if (nOrig !== n && state.ended && state.length === 0)
+    endReadable(this);
+
+  if (!util.isNull(ret))
+    this.emit('data', ret);
+
+  return ret;
+}, _consuming=true, _idleNext=null, _idlePrev=null, _idleTimeout=-1, write=function writeAfterFIN(chunk, encoding, cb) {
+  if (util.isFunction(encoding)) {
+    cb = encoding;
+    encoding = null;
+  }
+
+  var er = new Error('This socket has been ended by the other party');
+  er.code = 'EPIPE';
+  var self = this;
+  // TODO: defer error events consistently everywhere, not just the cb
+  self.emit('error', er);
+  if (util.isFunction(cb)) {
+    process.nextTick(function() {
+      cb(er);
+    });
+  }
+}, stdio=[$ref=$["stdin"], $ref=$["stdout"], $ref=$["stderr"]]
+2015-02-22T11:59:38.603Z - info: Server listening at http://:::3000
+2015-02-22T11:59:39.859Z - info: Checking website: www.googlethisdoesnotexist4skhfksdhksccsd.com
+2015-02-22T11:59:39.913Z - info: stdout: HTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Sun, 22 Feb 2015 11:59:39 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Cache-control: no-cache, no-store
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+
+
+2015-02-22T11:59:39.916Z - info: child process exited with code 0
+2015-02-22T11:59:39.916Z - info:  _connecting=false, _hadError=false, _handle=null, _host=null, objectMode=false, highWaterMark=16384, buffer=[], length=0, pipes=null, pipesCount=0, flowing=true, ended=true, endEmitted=true, reading=false, sync=false, needReadable=false, emittedReadable=false, readableListening=false, defaultEncoding=utf8, ranOut=false, awaitDrain=0, readingMore=false, decoder=null, encoding=null, resumeScheduled=false, readable=false, domain=null, finish=[function onSocketFinish() {
+  // If still connecting - defer handling 'finish' until 'connect' will happen
+  if (this._connecting) {
+    debug('osF: not yet connected');
+    return this.once('connect', onSocketFinish);
+  }
+
+  debug('onSocketFinish');
+  if (!this.readable || this._readableState.ended) {
+    debug('oSF: ended, destroy', this._readableState);
+    return this.destroy();
+  }
+
+  debug('oSF: not ended, call shutdown()');
+
+  // otherwise, just shutdown, or destroy() if not possible
+  if (!this._handle || !this._handle.shutdown)
+    return this.destroy();
+
+  var req = new ShutdownWrap();
+  req.oncomplete = afterShutdown;
+  var err = this._handle.shutdown(req);
+
+  if (err)
+    return this._destroy(errnoException(err, 'shutdown'));
+}], _socketEnd=function onSocketEnd() {
+  // XXX Should not have to do as much crap in this function.
+  // ended should already be true, since this is called *after*
+  // the EOF errno and onread has eof'ed
+  debug('onSocketEnd', this._readableState);
+  this._readableState.ended = true;
+  if (this._readableState.endEmitted) {
+    this.readable = false;
+    maybeDestroy(this);
+  } else {
+    this.once('end', function() {
+      this.readable = false;
+      maybeDestroy(this);
+    });
+    this.read(0);
+  }
+
+  if (!this.allowHalfOpen) {
+    this.write = writeAfterFIN;
+    this.destroySoon();
+  }
+}, close=function () {
+          maybeClose(self);
+        }, data=function (data) {
+    log.error('stderr: ' + data);
+    stats.checksErrored = stats.checksErrored ? stats.checksErrored += 1 : 1;
+  }, _maxListeners=undefined, objectMode=false, highWaterMark=16384, needDrain=false, ending=true, ended=true, finished=true, decodeStrings=false, defaultEncoding=utf8, length=0, writing=false, corked=0, sync=true, bufferProcessing=false, onwrite=function (er) {
+    onwrite(stream, er);
+  }, writecb=null, writelen=0, bufferedRequest=null, lastBufferedRequest=null, pendingcb=0, prefinished=true, errorEmitted=false, writable=false, allowHalfOpen=false, destroyed=true, bytesRead=0, _bytesDispatched=0, _writev=null, _pendingData=null, _pendingEncoding=, read=function (n) {
+  debug('read', n);
+  var state = this._readableState;
+  var nOrig = n;
+
+  if (!util.isNumber(n) || n > 0)
+    state.emittedReadable = false;
+
+  // if we're doing read(0) to trigger a readable event, but we
+  // already have a bunch of data in the buffer, then just trigger
+  // the 'readable' event and move on.
+  if (n === 0 &&
+      state.needReadable &&
+      (state.length >= state.highWaterMark || state.ended)) {
+    debug('read: emitReadable', state.length, state.ended);
+    if (state.length === 0 && state.ended)
+      endReadable(this);
+    else
+      emitReadable(this);
+    return null;
+  }
+
+  n = howMuchToRead(n, state);
+
+  // if we've ended, and we're now clear, then finish it up.
+  if (n === 0 && state.ended) {
+    if (state.length === 0)
+      endReadable(this);
+    return null;
+  }
+
+  // All the actual chunk generation logic needs to be
+  // *below* the call to _read.  The reason is that in certain
+  // synthetic stream cases, such as passthrough streams, _read
+  // may be a completely synchronous operation which may change
+  // the state of the read buffer, providing enough data when
+  // before there was *not* enough.
+  //
+  // So, the steps are:
+  // 1. Figure out what the state of things will be after we do
+  // a read from the buffer.
+  //
+  // 2. If that resulting state will trigger a _read, then call _read.
+  // Note that this may be asynchronous, or synchronous.  Yes, it is
+  // deeply ugly to write APIs this way, but that still doesn't mean
+  // that the Readable class should behave improperly, as streams are
+  // designed to be sync/async agnostic.
+  // Take note if the _read call is sync or async (ie, if the read call
+  // has returned yet), so that we know whether or not it's safe to emit
+  // 'readable' etc.
+  //
+  // 3. Actually pull the requested chunks out of the buffer and return.
+
+  // if we need a readable event, then we need to do some reading.
+  var doRead = state.needReadable;
+  debug('need readable', doRead);
+
+  // if we currently have less than the highWaterMark, then also read some
+  if (state.length === 0 || state.length - n < state.highWaterMark) {
+    doRead = true;
+    debug('length less than watermark', doRead);
+  }
+
+  // however, if we've ended, then there's no point, and if we're already
+  // reading, then it's unnecessary.
+  if (state.ended || state.reading) {
+    doRead = false;
+    debug('reading or ended', doRead);
+  }
+
+  if (doRead) {
+    debug('do read');
+    state.reading = true;
+    state.sync = true;
+    // if the length is currently zero, then we *need* a readable event.
+    if (state.length === 0)
+      state.needReadable = true;
+    // call internal read method
+    this._read(state.highWaterMark);
+    state.sync = false;
+  }
+
+  // If _read pushed data synchronously, then `reading` will be false,
+  // and we need to re-evaluate how much data we can return to the user.
+  if (doRead && !state.reading)
+    n = howMuchToRead(nOrig, state);
+
+  var ret;
+  if (n > 0)
+    ret = fromList(n, state);
+  else
+    ret = null;
+
+  if (util.isNull(ret)) {
+    state.needReadable = true;
+    n = 0;
+  }
+
+  state.length -= n;
+
+  // If we have nothing in the buffer, then we want to know
+  // as soon as we *do* get something into the buffer.
+  if (state.length === 0 && !state.ended)
+    state.needReadable = true;
+
+  // If we tried to read() past the EOF, then emit end on the next tick.
+  if (nOrig !== n && state.ended && state.length === 0)
+    endReadable(this);
+
+  if (!util.isNull(ret))
+    this.emit('data', ret);
+
+  return ret;
+}, _consuming=true, _idleNext=null, _idlePrev=null, _idleTimeout=-1, write=function writeAfterFIN(chunk, encoding, cb) {
+  if (util.isFunction(encoding)) {
+    cb = encoding;
+    encoding = null;
+  }
+
+  var er = new Error('This socket has been ended by the other party');
+  er.code = 'EPIPE';
+  var self = this;
+  // TODO: defer error events consistently everywhere, not just the cb
+  self.emit('error', er);
+  if (util.isFunction(cb)) {
+    process.nextTick(function() {
+      cb(er);
+    });
+  }
+}
+2015-02-22T11:59:47.080Z - info: Checking website: www.googlethisdoesnotexist4skhfksdhksccsd.com
+2015-02-22T11:59:47.111Z - info: stdout: HTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Sun, 22 Feb 2015 11:59:46 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Cache-control: no-cache, no-store
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+
+
+2015-02-22T11:59:47.112Z - info: child process exited with code 0
+2015-02-22T11:59:47.112Z - info:  _connecting=false, _hadError=false, _handle=null, _host=null, objectMode=false, highWaterMark=16384, buffer=[], length=0, pipes=null, pipesCount=0, flowing=true, ended=true, endEmitted=true, reading=false, sync=false, needReadable=false, emittedReadable=false, readableListening=false, defaultEncoding=utf8, ranOut=false, awaitDrain=0, readingMore=false, decoder=null, encoding=null, resumeScheduled=false, readable=false, domain=null, finish=[function onSocketFinish() {
+  // If still connecting - defer handling 'finish' until 'connect' will happen
+  if (this._connecting) {
+    debug('osF: not yet connected');
+    return this.once('connect', onSocketFinish);
+  }
+
+  debug('onSocketFinish');
+  if (!this.readable || this._readableState.ended) {
+    debug('oSF: ended, destroy', this._readableState);
+    return this.destroy();
+  }
+
+  debug('oSF: not ended, call shutdown()');
+
+  // otherwise, just shutdown, or destroy() if not possible
+  if (!this._handle || !this._handle.shutdown)
+    return this.destroy();
+
+  var req = new ShutdownWrap();
+  req.oncomplete = afterShutdown;
+  var err = this._handle.shutdown(req);
+
+  if (err)
+    return this._destroy(errnoException(err, 'shutdown'));
+}], _socketEnd=function onSocketEnd() {
+  // XXX Should not have to do as much crap in this function.
+  // ended should already be true, since this is called *after*
+  // the EOF errno and onread has eof'ed
+  debug('onSocketEnd', this._readableState);
+  this._readableState.ended = true;
+  if (this._readableState.endEmitted) {
+    this.readable = false;
+    maybeDestroy(this);
+  } else {
+    this.once('end', function() {
+      this.readable = false;
+      maybeDestroy(this);
+    });
+    this.read(0);
+  }
+
+  if (!this.allowHalfOpen) {
+    this.write = writeAfterFIN;
+    this.destroySoon();
+  }
+}, close=function () {
+          maybeClose(self);
+        }, data=function (data) {
+    log.error('stderr: ' + data);
+    stats.checksErrored = stats.checksErrored ? stats.checksErrored += 1 : 1;
+  }, _maxListeners=undefined, objectMode=false, highWaterMark=16384, needDrain=false, ending=true, ended=true, finished=true, decodeStrings=false, defaultEncoding=utf8, length=0, writing=false, corked=0, sync=true, bufferProcessing=false, onwrite=function (er) {
+    onwrite(stream, er);
+  }, writecb=null, writelen=0, bufferedRequest=null, lastBufferedRequest=null, pendingcb=0, prefinished=true, errorEmitted=false, writable=false, allowHalfOpen=false, destroyed=true, bytesRead=0, _bytesDispatched=0, _writev=null, _pendingData=null, _pendingEncoding=, read=function (n) {
+  debug('read', n);
+  var state = this._readableState;
+  var nOrig = n;
+
+  if (!util.isNumber(n) || n > 0)
+    state.emittedReadable = false;
+
+  // if we're doing read(0) to trigger a readable event, but we
+  // already have a bunch of data in the buffer, then just trigger
+  // the 'readable' event and move on.
+  if (n === 0 &&
+      state.needReadable &&
+      (state.length >= state.highWaterMark || state.ended)) {
+    debug('read: emitReadable', state.length, state.ended);
+    if (state.length === 0 && state.ended)
+      endReadable(this);
+    else
+      emitReadable(this);
+    return null;
+  }
+
+  n = howMuchToRead(n, state);
+
+  // if we've ended, and we're now clear, then finish it up.
+  if (n === 0 && state.ended) {
+    if (state.length === 0)
+      endReadable(this);
+    return null;
+  }
+
+  // All the actual chunk generation logic needs to be
+  // *below* the call to _read.  The reason is that in certain
+  // synthetic stream cases, such as passthrough streams, _read
+  // may be a completely synchronous operation which may change
+  // the state of the read buffer, providing enough data when
+  // before there was *not* enough.
+  //
+  // So, the steps are:
+  // 1. Figure out what the state of things will be after we do
+  // a read from the buffer.
+  //
+  // 2. If that resulting state will trigger a _read, then call _read.
+  // Note that this may be asynchronous, or synchronous.  Yes, it is
+  // deeply ugly to write APIs this way, but that still doesn't mean
+  // that the Readable class should behave improperly, as streams are
+  // designed to be sync/async agnostic.
+  // Take note if the _read call is sync or async (ie, if the read call
+  // has returned yet), so that we know whether or not it's safe to emit
+  // 'readable' etc.
+  //
+  // 3. Actually pull the requested chunks out of the buffer and return.
+
+  // if we need a readable event, then we need to do some reading.
+  var doRead = state.needReadable;
+  debug('need readable', doRead);
+
+  // if we currently have less than the highWaterMark, then also read some
+  if (state.length === 0 || state.length - n < state.highWaterMark) {
+    doRead = true;
+    debug('length less than watermark', doRead);
+  }
+
+  // however, if we've ended, then there's no point, and if we're already
+  // reading, then it's unnecessary.
+  if (state.ended || state.reading) {
+    doRead = false;
+    debug('reading or ended', doRead);
+  }
+
+  if (doRead) {
+    debug('do read');
+    state.reading = true;
+    state.sync = true;
+    // if the length is currently zero, then we *need* a readable event.
+    if (state.length === 0)
+      state.needReadable = true;
+    // call internal read method
+    this._read(state.highWaterMark);
+    state.sync = false;
+  }
+
+  // If _read pushed data synchronously, then `reading` will be false,
+  // and we need to re-evaluate how much data we can return to the user.
+  if (doRead && !state.reading)
+    n = howMuchToRead(nOrig, state);
+
+  var ret;
+  if (n > 0)
+    ret = fromList(n, state);
+  else
+    ret = null;
+
+  if (util.isNull(ret)) {
+    state.needReadable = true;
+    n = 0;
+  }
+
+  state.length -= n;
+
+  // If we have nothing in the buffer, then we want to know
+  // as soon as we *do* get something into the buffer.
+  if (state.length === 0 && !state.ended)
+    state.needReadable = true;
+
+  // If we tried to read() past the EOF, then emit end on the next tick.
+  if (nOrig !== n && state.ended && state.length === 0)
+    endReadable(this);
+
+  if (!util.isNull(ret))
+    this.emit('data', ret);
+
+  return ret;
+}, _consuming=true, _idleNext=null, _idlePrev=null, _idleTimeout=-1, write=function writeAfterFIN(chunk, encoding, cb) {
+  if (util.isFunction(encoding)) {
+    cb = encoding;
+    encoding = null;
+  }
+
+  var er = new Error('This socket has been ended by the other party');
+  er.code = 'EPIPE';
+  var self = this;
+  // TODO: defer error events consistently everywhere, not just the cb
+  self.emit('error', er);
+  if (util.isFunction(cb)) {
+    process.nextTick(function() {
+      cb(er);
+    });
+  }
+}
+2015-02-22T12:00:59.624Z - info: Server listening at http://:::3000
+2015-02-22T12:01:02.797Z - info: Checking website: www.googlethisdoesnotexist4skhfksdhksccsd.com
+2015-02-22T12:01:02.853Z - info: stdout: HTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Sun, 22 Feb 2015 12:01:02 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Cache-control: no-cache, no-store
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+
+
+2015-02-22T12:01:02.856Z - info:  stdout=null, stderr=nullHTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Sun, 22 Feb 2015 12:01:02 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Cache-control: no-cache, no-store
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+
+
+2015-02-22T12:01:02.857Z - info: child process exited with code 0
+2015-02-22T12:02:00.126Z - info: Server listening at http://:::3000
+2015-02-22T12:02:05.632Z - info: Checking website: www.googlethisdoesnotexist4skhfksdhksccsd.com
+2015-02-22T12:02:05.670Z - error: stderr: curl: (6) Could
+2015-02-22T12:02:05.671Z - error: stderr:  not resolve host: www.googlethisdoesnotexist4skhfksdhksccsd.com
+
+2015-02-22T12:02:05.673Z - info:  stdout=curl: (6) Could not resolve host: www.googlethisdoesnotexist4skhfksdhksccsd.com
+, stderr=
+2015-02-22T12:02:05.674Z - info: child process exited with code 6
+2015-02-22T12:02:25.325Z - info: Server listening at http://:::3000
+2015-02-22T12:02:29.734Z - info: Checking website: www.googlethisdoesnotexist4skhfksdhksccsd.com
+2015-02-22T12:02:29.752Z - error: stderr: curl: (6) Could not resolve host: www.googlethisdoesnotexist4skhfksdhksccsd.com
+
+2015-02-22T12:02:29.753Z - info:  stdout=, stderr=curl: (6) Could not resolve host: www.googlethisdoesnotexist4skhfksdhksccsd.com
+
+2015-02-22T12:02:29.754Z - info: child process exited with code 6
+2015-02-22T12:02:37.997Z - info: Checking website: www.google.com
+2015-02-22T12:02:38.092Z - info: stdout: HTTP/1.1 302 Found
+Cache-Control: private
+Content-Type: text/html; charset=UTF-8
+Location: http://www.google.co.uk/?gfe_rd=cr&ei=XcXpVJTULuiG0AWUxYHgAQ
+Content-Length: 261
+Date: Sun, 22 Feb 2015 12:02:37 GMT
+Server: GFE/2.0
+Alternate-Protocol: 80:quic,p=0.08
+
+
+2015-02-22T12:02:38.093Z - info:  stdout=HTTP/1.1 302 Found
+Cache-Control: private
+Content-Type: text/html; charset=UTF-8
+Location: http://www.google.co.uk/?gfe_rd=cr&ei=XcXpVJTULuiG0AWUxYHgAQ
+Content-Length: 261
+Date: Sun, 22 Feb 2015 12:02:37 GMT
+Server: GFE/2.0
+Alternate-Protocol: 80:quic,p=0.08
+
+, stderr=
+2015-02-22T12:02:38.094Z - info: child process exited with code 0
+2015-02-22T12:02:56.762Z - info: Checking website: www.yahoo.com
+2015-02-22T12:02:56.833Z - info: stdout: HTTP/1.1 301 Redirect
+Date: Sun, 22 Feb 2015 12:02:56 GMT
+Via: http/1.1 ir6.fp.ir2.yahoo.com (ApacheTrafficServer)
+Server: ATS
+Location: https://www.yahoo.com/
+Content-Type: text/html
+Content-Language: en
+Cache-Control: no-store, no-cache
+Connection: keep-alive
+Content-Length: 1451
+
+
+2015-02-22T12:02:56.833Z - info:  stdout=HTTP/1.1 301 Redirect
+Date: Sun, 22 Feb 2015 12:02:56 GMT
+Via: http/1.1 ir6.fp.ir2.yahoo.com (ApacheTrafficServer)
+Server: ATS
+Location: https://www.yahoo.com/
+Content-Type: text/html
+Content-Language: en
+Cache-Control: no-store, no-cache
+Connection: keep-alive
+Content-Length: 1451
+
+, stderr=
+2015-02-22T12:02:56.833Z - info: child process exited with code 0
+2015-02-22T12:11:21.524Z - info: Server listening at http://:::3000
+2015-02-22T12:11:26.284Z - info: Checking website: www.yahoo.com
+2015-02-22T12:11:26.417Z - info: stdout: HTTP/1.1 301 Redirect
+Date: Sun, 22 Feb 2015 12:11:26 GMT
+Via: http/1.1 ir14.fp.ir2.yahoo.com (ApacheTrafficServer)
+Server: ATS
+Location: https://www.yahoo.com/
+Content-Type: text/html
+Content-Language: en
+Cache-Control: no-store, no-cache
+Connection: keep-alive
+Content-Length: 1451
+
+
+2015-02-22T12:11:26.420Z - info:  stdout=nullHTTP/1.1 301 Redirect
+Date: Sun, 22 Feb 2015 12:11:26 GMT
+Via: http/1.1 ir14.fp.ir2.yahoo.com (ApacheTrafficServer)
+Server: ATS
+Location: https://www.yahoo.com/
+Content-Type: text/html
+Content-Language: en
+Cache-Control: no-store, no-cache
+Connection: keep-alive
+Content-Length: 1451
+
+, stderr=null
+2015-02-22T12:11:26.421Z - info: child process exited with code 0
+2015-02-22T12:11:41.230Z - info: Checking website: www.yahoo234345.com
+2015-02-22T12:11:41.390Z - info: stdout: HTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Sun, 22 Feb 2015 12:11:41 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Cache-control: no-cache, no-store
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+
+
+2015-02-22T12:11:41.391Z - info:  stdout=nullHTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Sun, 22 Feb 2015 12:11:41 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Cache-control: no-cache, no-store
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+
+, stderr=null
+2015-02-22T12:11:41.392Z - info: child process exited with code 0
+2015-02-22T12:11:52.639Z - info: Checking website: www.yahoo23434sdfsdf5.com
+2015-02-22T12:11:52.793Z - info: stdout: HTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Sun, 22 Feb 2015 12:11:52 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Cache-control: no-cache, no-store
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+
+
+2015-02-22T12:11:52.794Z - info:  stdout=nullHTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Sun, 22 Feb 2015 12:11:52 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Cache-control: no-cache, no-store
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+
+, stderr=null
+2015-02-22T12:11:52.794Z - info: child process exited with code 0
+2015-02-22T12:12:13.900Z - info: Checking website: www.yahoo23434sdfsdf5.com
+2015-02-22T12:12:14.112Z - info: stdout: HTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Sun, 22 Feb 2015 12:12:13 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Cache-control: no-cache, no-store
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+
+
+2015-02-22T12:12:14.112Z - info:  stdout=nullHTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Sun, 22 Feb 2015 12:12:13 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Cache-control: no-cache, no-store
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+
+, stderr=null
+2015-02-22T12:12:14.112Z - info: child process exited with code 0
+2015-02-22T12:12:20.257Z - info: Checking website: www.yahoo23434sdfsdf5.com
+2015-02-22T12:12:20.314Z - info: stdout: HTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Sun, 22 Feb 2015 12:12:19 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Cache-control: no-cache, no-store
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+
+
+2015-02-22T12:12:20.316Z - info:  stdout=nullHTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Sun, 22 Feb 2015 12:12:19 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Cache-control: no-cache, no-store
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+
+, stderr=null
+2015-02-22T12:12:20.316Z - info: child process exited with code 0
+2015-02-22T12:12:58.302Z - info: Server listening at http://:::3000
+2015-02-22T12:13:01.486Z - info: Checking website: www.yahoo23434sdfsdf5.com
+2015-02-22T12:13:01.552Z - info: stdout: HTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Sun, 22 Feb 2015 12:13:01 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Cache-control: no-cache, no-store
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+
+
+2015-02-22T12:13:01.555Z - info:  stdout=nullHTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Sun, 22 Feb 2015 12:13:01 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Cache-control: no-cache, no-store
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+
+, stderr=null
+2015-02-22T12:13:01.556Z - info: child process exited with code 0
+2015-02-22T12:13:19.492Z - info: Server listening at http://:::3000
+2015-02-22T12:13:20.611Z - info: Checking website: www.yahoo23434sdfsdf5.com
+2015-02-22T12:13:20.644Z - info:  stdout=nullHTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Sun, 22 Feb 2015 12:13:20 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Cache-control: no-cache, no-store
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Pragma: no-cache
+
+, stderr=null
+2015-02-22T12:13:20.645Z - info: child process exited with code 0
+2015-02-22T12:14:24.826Z - info: Checking website: www.yahoo23434sdfsdf5.com
+2015-02-22T12:14:25.351Z - info:  stdout=null, stderr=nullcurl: (6) Could not resolve host: www.yahoo23434sdfsdf5.com
+
+2015-02-22T12:14:25.351Z - info: child process exited with code 6
+2015-02-22T12:14:51.555Z - info: Checking website: www.yahoo23434sdfsdf5.com
+2015-02-22T12:14:51.566Z - info:  stdout=null, stderr=nullcurl: (6) Could not resolve host: www.yahoo23434sdfsdf5.com
+
+2015-02-22T12:14:51.566Z - info: child process exited with code 6
